@@ -4,10 +4,10 @@ import Form from "./components/form";
 
 
 function App() {
-   const uye1 = {
+  const uye1 = {
      isim: "ali",
      soyIsim:"er",  yas:"25",  rol:"sagbek"}
-const uye2 ={  isim: "sadi",  soyIsim:"tek",  yas:"32",
+  const uye2 ={  isim: "sadi",  soyIsim:"tek",  yas:"32",
     rol:"ortasaha"
   }
  const [uye, setUye] = useState([{

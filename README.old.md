@@ -13,11 +13,12 @@ Bu projede, takım üyelerini takip eden bir uygulama ayağa kaldıracaksın ve 
 
 - [ ] Projeyi forklayarak bir kopyasını oluşturun.
 - [ ] Forku klonlayın
-- [ ] `npx create-react-app .` komutuyla projeyi oluşturun (SONDAKİ NOKTAYA DİKKAT EDİN!) .
+- [ ] `npx create-react-app .` komutuyla projeyi oluşturun (SONDAKİ NOKTAYA DİKKAT EDİN!) .//noktayla içinde bulunduğumuz klasörün içine reacti kurar proje içinde değilsek projenin adı noktayerine yazılır. npm install işlemi de yapılmış olur
 - [ ] `npm start` komutuyla projeyi başlatın
 - [ ] Projeyi oluşturduğunuz reponun `main` branchi üzerinde commitleyin.
 - [ ] Commitlerinizi pushlayın: git push origin `main`.
 
+projeye .env dosyası ekleyip içine PORT=3001(herhangi bir görüntülemek istediğimiz portun ismi) yazarsak projemiz localhost 3001 portunda açılır. tabi ctrl-c ileçıkıp tekrar npm start yapmamız gerekir. package json dan da port değiştirilebilir.
 ### Görev 2: MVP (MUÜ)
 
 - [ ] Takım üyelerini içeren listeyi bir stateten render edin.
